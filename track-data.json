@@ -1,0 +1,1170 @@
+{
+  "data": [
+    {
+      "id": "009920240915",
+      "travelService": {
+        "id": "009920240915",
+        "number": "99",
+        "date": "2024-09-15",
+        "type": {
+          "code": "TRN",
+          "description": "Intercity Train"
+        },
+        "name": {
+          "code": "NERG",
+          "description": "Northeast Regional"
+        },
+        "operator": {
+          "code": "AMTK",
+          "description": "Amtrak"
+        },
+        "origin": {
+          "code": "BOS",
+          "name": "Boston, MA",
+          "facility": "South Station",
+          "timeZone": "America/New_York"
+        },
+        "destination": {
+          "code": "NPN",
+          "name": "Newport News, VA",
+          "timeZone": "America/New_York"
+        }
+      },
+      "statusSummary": {
+        "displayMessage": "4 MIN EARLY",
+        "locationInfo": {
+          "lastKnownLocationCode": "BOS",
+          "latitude": 42.352311,
+          "longitude": -71.055304
+        }
+      },
+      "stops": [
+        {
+          "id": "009920240915BOS",
+          "stopNumber": 1,
+          "station": {
+            "code": "BOS",
+            "name": "Boston, MA",
+            "facility": "South Station",
+            "timeZone": "America/New_York"
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T08:40:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Departed",
+              "displayMessage": "On Time",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T08:40:00-04:00",
+              "delay": "PT0S",
+              "asOf": "2024-09-15T08:40:32-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915BBY",
+          "stopNumber": 2,
+          "station": {
+            "code": "BBY",
+            "name": "Boston, MA",
+            "facility": "Back Bay Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T08:44:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Arrived",
+              "displayMessage": "On Time",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T08:44:00-04:00",
+              "delay": "PT0S",
+              "asOf": "2024-09-15T08:48:17-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T08:45:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Departed",
+              "displayMessage": "On Time",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T08:45:00-04:00",
+              "delay": "PT0S",
+              "asOf": "2024-09-15T08:48:17-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915RTE",
+          "stopNumber": 3,
+          "station": {
+            "code": "RTE",
+            "name": "Route 128, MA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T08:54:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "2 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T08:56:00-04:00",
+              "delay": "PT2M",
+              "asOf": "2024-09-15T09:00:43-04:00"
+            },
+            "track": {
+              "number": "1",
+              "asOf": "2024-09-15T01:14:48.63-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T08:55:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "3 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T08:58:00-04:00",
+              "delay": "PT3M",
+              "asOf": "2024-09-15T09:00:43-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915PVD",
+          "stopNumber": 4,
+          "station": {
+            "code": "PVD",
+            "name": "Providence, RI",
+            "facility": "Amtrak/MBTA Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:17:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "2 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:19:00-04:00",
+              "delay": "PT2M",
+              "asOf": "2024-09-15T09:22:10-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:19:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "2 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:21:00-04:00",
+              "delay": "PT2M",
+              "asOf": "2024-09-15T09:22:10-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915KIN",
+          "stopNumber": 5,
+          "station": {
+            "code": "KIN",
+            "name": "Kingston, RI",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:39:00-04:00"
+            },
+            "statusInfo": {
+              "status": "EARLY",
+              "displayStatus": "Arrived",
+              "displayMessage": "1 Minute Early",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:38:00-04:00",
+              "delay": "PT-1M",
+              "asOf": "2024-09-15T09:43:39-04:00"
+            },
+            "track": {
+              "number": "1",
+              "asOf": "2024-09-15T01:14:48.66-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:40:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Departed",
+              "displayMessage": "On Time",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:40:00-04:00",
+              "delay": "PT0S",
+              "asOf": "2024-09-15T09:43:39-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915WLY",
+          "stopNumber": 6,
+          "station": {
+            "code": "WLY",
+            "name": "Westerly, RI",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:53:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Arrived",
+              "displayMessage": "On Time",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:53:00-04:00",
+              "delay": "PT0S",
+              "asOf": "2024-09-15T09:58:23-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T09:53:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "3 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T09:56:00-04:00",
+              "delay": "PT3M",
+              "asOf": "2024-09-15T09:58:23-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915MYS",
+          "stopNumber": 7,
+          "station": {
+            "code": "MYS",
+            "name": "Mystic, CT",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T10:03:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "1 Minute Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T10:04:00-04:00",
+              "delay": "PT1M",
+              "asOf": "2024-09-15T11:55:24-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T10:04:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "3 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T10:07:00-04:00",
+              "delay": "PT3M",
+              "asOf": "2024-09-15T11:55:24-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NLC",
+          "stopNumber": 8,
+          "station": {
+            "code": "NLC",
+            "name": "New London, CT",
+            "facility": "Union Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T10:16:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "2 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T10:18:00-04:00",
+              "delay": "PT2M",
+              "asOf": "2024-09-15T11:55:24-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T10:17:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "4 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T10:21:00-04:00",
+              "delay": "PT4M",
+              "asOf": "2024-09-15T11:55:24-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NHV",
+          "stopNumber": 9,
+          "station": {
+            "code": "NHV",
+            "name": "New Haven, CT",
+            "facility": "Union Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:03:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "6 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T11:09:00-04:00",
+              "delay": "PT6M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:05:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "6 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T11:11:00-04:00",
+              "delay": "PT6M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915BRP",
+          "stopNumber": 10,
+          "station": {
+            "code": "BRP",
+            "name": "Bridgeport, CT",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:26:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "7 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T11:33:00-04:00",
+              "delay": "PT7M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:27:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "8 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T11:35:00-04:00",
+              "delay": "PT8M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915STM",
+          "stopNumber": 11,
+          "station": {
+            "code": "STM",
+            "name": "Stamford, CT",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:53:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "12 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T12:05:00-04:00",
+              "delay": "PT12M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T11:55:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "12 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T12:07:00-04:00",
+              "delay": "PT12M",
+              "asOf": "2024-09-15T12:32:22-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NRO",
+          "stopNumber": 12,
+          "station": {
+            "code": "NRO",
+            "name": "New Rochelle, NY",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T12:15:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Arrived",
+              "displayMessage": "12 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T12:27:00-04:00",
+              "delay": "PT12M",
+              "asOf": "2024-09-15T12:33:41-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T12:16:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Departed",
+              "displayMessage": "13 Minutes Late",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T12:29:00-04:00",
+              "delay": "PT13M",
+              "asOf": "2024-09-15T12:33:41-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NYP",
+          "stopNumber": 13,
+          "station": {
+            "code": "NYP",
+            "name": "New York, NY",
+            "facility": "Moynihan Train Hall at Penn Sta.",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:05:00-04:00"
+            },
+            "statusInfo": {
+              "status": "EARLY",
+              "displayStatus": "Arrived",
+              "displayMessage": "4 Minutes Early",
+              "dateTimeType": "ACTUAL",
+              "dateTime": "2024-09-15T13:01:00-04:00",
+              "delay": "PT-4M",
+              "asOf": "2024-09-15T13:03:45-04:00"
+            },
+            "track": {
+              "number": "15",
+              "asOf": "2024-09-15T13:00:31.643-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:17:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "Last Call",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T13:17:00-04:00",
+              "autoCalculated": false,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:47:00-04:00"
+            },
+            "gate": {
+              "number": "W",
+              "asOf": "2024-09-15T13:07:03.653-04:00"
+            },
+            "track": {
+              "number": "15",
+              "asOf": "2024-09-15T13:07:06.79-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NWK",
+          "stopNumber": 14,
+          "station": {
+            "code": "NWK",
+            "name": "Newark, NJ",
+            "facility": "Penn Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:33:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T13:33:00-04:00",
+              "autoCalculated": false,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:03:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:35:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T13:35:00-04:00",
+              "autoCalculated": false,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:03:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915MET",
+          "stopNumber": 15,
+          "station": {
+            "code": "MET",
+            "name": "Metropark, NJ",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:48:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T13:48:00-04:00",
+              "autoCalculated": false,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T13:49:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T13:49:00-04:00",
+              "autoCalculated": false,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915PHL",
+          "stopNumber": 16,
+          "station": {
+            "code": "PHL",
+            "name": "Philadelphia, PA",
+            "facility": "William H Gray III 30th St. Sta.",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T14:42:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T14:42:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T14:46:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T14:46:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915WIL",
+          "stopNumber": 17,
+          "station": {
+            "code": "WIL",
+            "name": "Wilmington, DE",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T15:06:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T15:06:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            },
+            "track": {
+              "number": "3",
+              "asOf": "2024-09-15T07:06:12-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T15:08:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T15:08:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            },
+            "track": {
+              "number": "3",
+              "asOf": "2024-09-15T07:06:12-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915BAL",
+          "stopNumber": 18,
+          "station": {
+            "code": "BAL",
+            "name": "Baltimore, MD",
+            "facility": "Penn Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:00:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:00:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:02:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:02:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915BWI",
+          "stopNumber": 19,
+          "station": {
+            "code": "BWI",
+            "name": "BWI Marshall Airport, MD",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:13:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:13:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:15:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:15:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NCR",
+          "stopNumber": 20,
+          "station": {
+            "code": "NCR",
+            "name": "New Carrollton, MD",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:28:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:28:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:29:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:29:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915WAS",
+          "stopNumber": 21,
+          "station": {
+            "code": "WAS",
+            "name": "Washington, DC",
+            "facility": "Union Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T16:44:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T16:44:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T17:10:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T17:10:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915ALX",
+          "stopNumber": 22,
+          "station": {
+            "code": "ALX",
+            "name": "Alexandria, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T17:25:00-04:00"
+            },
+            "statusInfo": {
+              "status": "DELAYED",
+              "displayStatus": "Now 05:26PM",
+              "displayMessage": "1 Minute Late",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T17:26:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT1M",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T17:28:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T17:28:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915QAN",
+          "stopNumber": 23,
+          "station": {
+            "code": "QAN",
+            "name": "Quantico, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T17:53:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T17:53:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T17:54:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T17:54:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915FBG",
+          "stopNumber": 24,
+          "station": {
+            "code": "FBG",
+            "name": "Fredericksburg, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T18:15:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T18:15:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T18:18:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T18:18:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915ASD",
+          "stopNumber": 25,
+          "station": {
+            "code": "ASD",
+            "name": "Ashland, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T18:59:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T18:59:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T19:00:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T19:00:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915RVR",
+          "stopNumber": 26,
+          "station": {
+            "code": "RVR",
+            "name": "Richmond, VA",
+            "facility": "Staples Mill Road Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T19:18:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T19:18:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T19:23:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T19:23:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915RVM",
+          "stopNumber": 27,
+          "station": {
+            "code": "RVM",
+            "name": "Richmond, VA",
+            "facility": "Main Street Station",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T19:47:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T19:47:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T19:50:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T19:50:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915WBG",
+          "stopNumber": 28,
+          "station": {
+            "code": "WBG",
+            "name": "Williamsburg, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T20:40:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T20:40:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            },
+            "track": {
+              "number": "1",
+              "asOf": "2024-09-15T08:40:14-04:00"
+            }
+          },
+          "departure": {
+            "schedule": {
+              "dateTime": "2024-09-15T20:43:00-04:00"
+            },
+            "statusInfo": {
+              "status": "ON TIME",
+              "displayStatus": "On Time",
+              "displayMessage": "On Time",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T20:43:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT0S",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            },
+            "track": {
+              "number": "1",
+              "asOf": "2024-09-15T08:40:14-04:00"
+            }
+          }
+        },
+        {
+          "id": "009920240915NPN",
+          "stopNumber": 29,
+          "station": {
+            "code": "NPN",
+            "name": "Newport News, VA",
+            "timeZone": "America/New_York"
+          },
+          "arrival": {
+            "schedule": {
+              "dateTime": "2024-09-15T21:10:00-04:00"
+            },
+            "statusInfo": {
+              "status": "EARLY",
+              "displayStatus": "Now 09:07PM",
+              "displayMessage": "3 Minutes Early",
+              "dateTimeType": "ESTIMATE",
+              "dateTime": "2024-09-15T21:07:00-04:00",
+              "autoCalculated": true,
+              "delay": "PT-3M",
+              "asOf": "2024-09-15T12:19:00-04:00"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

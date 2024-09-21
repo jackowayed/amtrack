@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "amtrak": "^3.0.5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
